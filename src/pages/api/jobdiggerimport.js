@@ -5,7 +5,7 @@ export default async function handler(req, res) {
     userLanguage: 'nl-NL',
     query: {
       dateUpdated: {
-              "gte": 'now-1h/h',
+              "gte": 'now-6h/h',
               "lte": "now/h"
           },
       active: true,
